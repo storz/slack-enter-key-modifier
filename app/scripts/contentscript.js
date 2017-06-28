@@ -10,8 +10,10 @@ document.body.appendChild(function(){
             return !checkbox.checked;
         }
 
-        TS.utility.contenteditable.isCursorInPreBlock = isEnabled
-        TS.model.prefs.enter_is_special_in_tbt = true
+        TS.utility.contenteditable.isCursorInPreBlock = function() {
+            TS.model.prefs.enter_is_special_in_tbt = true
+            return isEnabled()
+        }
     };
     
     var elm = document.createElement('script');
