@@ -1,0 +1,19 @@
+{
+  "appName": {
+    "message": "Slack Enter Key Modifier",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Enter should not send message always on Slack.com",
+    "description": "The description of the application"
+  },
+  "enterKeyToSendMessage": {
+    "message": "Enter key to send message: "
+  },
+  "on": {
+    "message": "ON"
+  },
+  "off": {
+    "message": "OFF"
+  }
+}

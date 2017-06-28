@@ -1,0 +1,27 @@
+#msg_input {
+    padding-right: 72px !important;
+}
+
+#label_enter_key_to_send_message {
+    position: absolute;
+    z-index: 1;
+    right: 40px;
+    top: 0;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 14px;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 50ms ease-out 0s;
+    -moz-transition: all 50ms ease-out 0s;
+    transition: all 50ms ease-out 0s;
+}
+
+#checkbox_enter_key_to_send_message {
+    margin-right: 4px;
+}
+

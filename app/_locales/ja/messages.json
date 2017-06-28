@@ -1,0 +1,19 @@
+{
+  "appName": {
+    "message": "Slack Enter Key Modifier",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Slack を Enter で改行できるようにします",
+    "description": "The description of the application"
+  },
+  "enterKeyToSendMessage": {
+    "message": "Enter キーで送信: "
+  },
+  "on": {
+    "message": "オン"
+  },
+  "off": {
+    "message": "オフ"
+  }
+}
