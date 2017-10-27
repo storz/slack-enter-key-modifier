@@ -14,7 +14,7 @@ function updateParts(isChecked) {
     });
 }
 
-document.getElementById('msg_form').appendChild(function() {
+document.getElementById('msg_form').getElementsByClassName('msg_input_wrapper')[0].appendChild(function() {
     var label = document.createElement('label');
     label.id = 'label_enter_key_to_send_message';
     label.className = 'checkbox normal mini ts_tip ts_tip_top ts_tip_float ts_tip_delay_500 ts_tip_hidden';
