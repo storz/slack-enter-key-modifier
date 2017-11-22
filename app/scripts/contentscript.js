@@ -11,11 +11,7 @@ document.body.appendChild(function(){
         }
 
         TS.utility.contenteditable.isCursorInPreBlock = function() {
-            if (TS.model.prefs) {
-                TS.model.prefs.enter_is_special_in_tbt = true
-            } else {
-                TS.prefs.setPref('enter_is_special_in_tbt', true)
-            }
+            TS.prefs.setPrefLocal('enter_is_special_in_tbt', true)
             return isEnabled()
         }
     };
